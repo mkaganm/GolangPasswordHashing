@@ -53,18 +53,6 @@ func main() {
 }
 ```
 
-func main() {
-
-password := "123456"
-
-hash, _ := PasswordToHash(password)
-
-match := CheckPassword(password, hash)
-
-fmt.Println("Password\t:", password)
-fmt.Println("Hash\t\t:", hash)
-fmt.Println("Match\t\t:", match)
-}
 Yukarıda verdiğim main fonksiyounu çalıştırdığınızda aşağıdaki sonuç ile karşılaşacaksınız.
 
 ```bash
